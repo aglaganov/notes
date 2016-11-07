@@ -3,5 +3,5 @@
 $conn = mysqli_connect("localhost","root","YES","notes");
 
 if (!$conn) {
-	die("connection faild: ".mysqly_connect_error);
+	die("connection faild: ".mysqli_connect_error);
 }
