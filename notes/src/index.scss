@@ -1,0 +1,7 @@
+.header{
+	&-logo{display:inline-block;float:left;}
+	&-nav{float:right;}
+	ul{padding:0;margin:0;display:inline-block;}
+	li{margin:0;list-style:none;display:inline-block;padding:10px 20px;}
+}
+.content{clear:both;}
